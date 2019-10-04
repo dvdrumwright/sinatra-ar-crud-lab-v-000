@@ -1,5 +1,5 @@
-<% @article = "/articles" %>
 <% @article.each do |articles| %>
-<%= articles.id %>
-<%= articles.title %>
+<a href="/articles/<%= articles.id %>"
+  <%= articles.title %> 
+</a>
 <%end%>
