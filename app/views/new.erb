@@ -1,10 +1,11 @@
-<form action="/articles" method="POST" >
-article_title: <input type="text" name="article[title]"><br />
-article_content: <input type="text" name="article[content]"><br />
+<form action="/articles" method="post" >
 
-<h3>Magazne</h3>
-<input type="text" id="article_title" name="article[][title]"><br />
-<input type="text" id="article_content" name="article[][content]"><br/>
+<label for="title">Title</label>
+<input id="title" type="text" name="title">
+
+<label for="content">Content</label>
+<input id="content" type="text" name="content">
+
 
 <button id="submit" type="submit">Submit:</button>
 
