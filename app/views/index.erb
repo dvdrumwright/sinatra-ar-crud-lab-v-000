@@ -1,2 +1,5 @@
-<form action="/articles/<%=@article.id %>" method="post">
-</form> 
+<% @article = Article.new %>
+<% @article.each do |articles| %>
+<%= articles.id %>
+<%= articles.title %>
+<%end%> 
