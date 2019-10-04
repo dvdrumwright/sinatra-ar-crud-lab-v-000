@@ -4,7 +4,7 @@ class Article < ActiveRecord::Base
 
   attr_accessor :title, :content
 
-  ARTICLES= []
+  ARTICLES = []
 
 def initialize(arg)
   @title = arg[:title]
@@ -17,4 +17,4 @@ def self.all
   ARTICLES
 end
 
-end 
+end
