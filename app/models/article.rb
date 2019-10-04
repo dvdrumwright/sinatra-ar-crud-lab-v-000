@@ -8,7 +8,7 @@ class Article < ActiveRecord::Base
 
 def initialize(arg)
   @title = arg[:title]
-  @content = arg[content]
+  @content = arg[:content]
   ARTICLES << self
 end
 
